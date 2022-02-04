@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality & GHG Emissions</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<div id="header-text">
+    <h1><strong id="top-title"> Pennsylvania's Air Quality and GHG Emissions </strong></h1>
+    <p id="slogan"> Explore, Discover, and Take Action! </p>
+</div>
+
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li><a href="/" >Home</a></li>
+            <li><a href="/background/" >Background</a></li>
+            <li><a href="/ML/" >Machine Learning</a></li>
+            <li><a href="/action/"id="onlink">Take Action</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <div class="main_container">
+
+        <h2><strong>Take Action</strong></h2>
+        <p style="text-align: left;"><br>
+            So now you know that Pennsylvania ranks high in the United States for overall CO2 emissions, that industrial
+            sectors do way more damage than the residential
+            (and the average person), and that some counties (maybe even the one you live in) are home to facilities
+            that are dumping CO2 into Pennsylvania's skies
+            despite warnings that things are getting worse by the year.
+        </p>
+        <p style="text-align: left;"><br>
+            With the looming and increasing aggression of the climate crisis, it's easy to turn the other cheek.
+            How can I take action when the problem feels so big? What could a possible solution even look like?
+        </p>
+        <p style="text-align: left;"><br>
+            Fights against any form of social injustice are woven together at their roots.
+            Taking care of smaller problems together can result in big change.
+            If it's not for us, it's for the next generation; maybe not our neighbors next door, but our neighbors in
+            time: the people that will live here after we're gone.
+        </p>
+        <p style="text-align: left;"><br>
+            There are so many groups across the state of Pennsylvania, from Pittsburgh to Philadelphia (the two cities
+            where this rag tag team of citizen data analysts live) and counties in between, fighting for equity at all
+            angles
+            for our state.
+            Start slow, join a local community organization, and take action with them! No one person can change
+            everything we need - it takes a movement! Here is a short list to get you going:</p>
+        <br>
+        <h2> Organization and Resources </h2>
+        <p style="text-align: center;">
+            <a href="https://wearecasa.org/program/community-organizing/" , target="_blank"> CASA </a>
+            <br><a href="https://www.maketheroadpa.org/" , target="_blank"> Make the Road</a>
+            <br><a href="https://decarceratepa.info/CADBI" , target="_blank"> CADBI </a>
+            <br><a href="https://www.pittsburghforpublictransit.org/" , target="_blank"> Pittsburgh for Public Transit
+            </a>
+            <br><a href="https://onepa.org/vote/" , target="_blank"> One PA </a>
+            <br><a href="https://pastandsup.org/" , target="_blank"> PA Stands UP </a>
+            <br><a href="https://powerinterfaith.org/" , target="_blank"> POWER </a>
+            <br><a href="http://www.energyjustice.net/" , target="_blank"> Energy Justice Network </a>
+            <br><a href="https://www.phillythrive.org/" , target="_blank"> PA United </a>
+            <br><a href="http://215pa.com/" , target="_blank"> 215 PA </a>
+            <br><a href="https://www.sunrisemovement.org/" , target="_blank"> The Sunrise Movement </a>
+            <br> <br>
+            <strong> If you're fired up, head over to <a href="https://www.thriveagenda.com/" , target="_blank">THRIVE
+                    Agenda</a>
+                to learn about their plan and contact your <a href="https://www.congress.gov/members" ,
+                    target="_blank">member of
+                    Congress</a> to take action!</strong> <br><br>
+        </p>
+        </p>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{url_for('static', filename='js/app.js')}}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js"></script>
+
+</body>
+
+</html>
